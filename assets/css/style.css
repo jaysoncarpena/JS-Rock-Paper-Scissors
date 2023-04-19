@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    padding-top: 100px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800px;
+    margin: 15px 0;
+    color: rgb(241, 234, 234);
+}
+h2 {
+    color: rgb(241, 234, 234);
+}
+.container{
+    display: flex;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+.section .info{
+    background:rgb(81,221,166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.section .show {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 9rem;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgba(81, 221, 165, 0.562);
+    height: 220px;
+}
+
+h2{
+    font-weight: bold;
+    padding: 5px;
+}
+.pick-one {
+    color: rgb(241, 234, 234);
+    margin-bottom: 25px;
+}
+.selections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+}
+.selections button{
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgba(81, 221, 165, 0.562);
+    font-size: 3rem;
+    color: rgb(245,196,49);
+    transition: 100ms;
+}
+
+.selection:hover {
+    transform: scale(1.2);
+}
+
